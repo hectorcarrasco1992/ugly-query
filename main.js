@@ -36,7 +36,7 @@ newH3.style.fontSize = "comic sans ms"
 newH3.style.borderWidth = " 100px"
 
 let newImage = document.createElement('img')
-newImage.src = "url('https://media.giphy.com/media/11uNtcrMjerjva/source.gif')"
+newImage.src = 'url(https://media.giphy.com/media/11uNtcrMjerjva/source.gif)'
 
 const Div = document.querySelector("div")
 Div.appendChild(newImage)
