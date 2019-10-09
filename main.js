@@ -33,7 +33,15 @@ const newH3 =document.querySelector('#heading3')
 newH3.style.color = "yellow"
 newH3.style.fontSize = "100px"
 newH3.style.fontSize = "comic sans ms"
+newH3.style.borderWidth = " 100px"
 
-const newImage =document.createElement('img')
-newImage.src = "url('https://media.giphy.com/media/13AoeV72xE9lU4/giphy.gif')"
-newImage.appendChild('div')
+let newImage = document.createElement('img')
+newImage.src = "url('https://media.giphy.com/media/11uNtcrMjerjva/source.gif')"
+
+const Div = document.querySelector("div")
+Div.appendChild(newImage)
+
+const newTextArea = document.querySelector('#txtArea')
+newTextArea.style.backgroundColor= "brown"
+newTextArea.style.backgroundImage = "url('https://media.giphy.com/media/3o6gb287WcsFCkZiww/source.gif')"
+newTextArea.style.backgroundImage = '100%'
