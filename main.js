@@ -36,7 +36,7 @@ newH3.style.fontSize = "comic sans ms"
 newH3.style.borderWidth = " 100px"
 
 let newImage = document.createElement('img')
-newImage.src = 'url(https://media.giphy.com/media/11uNtcrMjerjva/source.gif)'
+newImage.src = 'https://media.giphy.com/media/11uNtcrMjerjva/source.gif'
 
 const Div = document.querySelector("div")
 Div.appendChild(newImage)
@@ -45,3 +45,5 @@ const newTextArea = document.querySelector('#txtArea')
 newTextArea.style.backgroundColor= "brown"
 newTextArea.style.backgroundImage = "url('https://media.giphy.com/media/3o6gb287WcsFCkZiww/source.gif')"
 newTextArea.style.backgroundImage = '100%'
+newTextArea.style.height = "400px"
+newTextArea.style.width = "400px"
