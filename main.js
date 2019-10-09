@@ -3,8 +3,10 @@ pepe.style.backgroundImage= 'url("https://i.imgur.com/JlXtPpf.png")'
 
 
 const uglyTitle = document.querySelector("h1")
-uglyTitle.style.fontFamily = "pt sans"
+uglyTitle.style.fontFamily = "Comic Sans serif"
 uglyTitle.style.color = "yellow"
+uglyTitle.style.textAlign = "right"
+uglyTitle.style.fontSize = "400px"
 
 
 const paragraph = document.querySelector('p')
@@ -31,3 +33,7 @@ const newH3 =document.querySelector('#heading3')
 newH3.style.color = "yellow"
 newH3.style.fontSize = "100px"
 newH3.style.fontSize = "comic sans ms"
+
+const newImage =document.createElement('img')
+newImage.src = "url('https://media.giphy.com/media/13AoeV72xE9lU4/giphy.gif')"
+newImage.appendChild('div')
